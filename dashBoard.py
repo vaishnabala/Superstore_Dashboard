@@ -17,7 +17,6 @@ if f1 is not None:
     st.write(filename)
     df = pd.read_csv(filename) #df = pd.read_csv(filename,encoding = "ISO-8859-1") 
 else:
-    os.chdir(r"C:\Users\ISME\OneDrive - INTERNATIONAL SCHOOL OF MANAGEMENT EXCELLENCE\Documents\GitHub\Superstore_Dashboard")
     df = pd.read_csv("superstore.csv") #df = pd.read_csv(filename,encoding = ISO-8859-1") 
 
 col1,col2 = st.columns((2))
